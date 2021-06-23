@@ -29,5 +29,21 @@ namespace WpfAppVar6
         {
             this.Close();
         }
+
+        private static int MaxValue(int a, int x, int y, int z)
+        {
+            return (Math.Max(a, Math.Max(x, Math.Max(y, z))));
+        }
+
+        private void Button_Reschenie(object sender, RoutedEventArgs e)
+        {
+            int a = Convert.ToInt32(Number1.Text);
+            int x = Convert.ToInt32(Number2.Text);
+            int y = Convert.ToInt32(Number3.Text);
+            int z = Convert.ToInt32(Number4.Text);
+
+            NumberMax.Text = MaxValue(a, x, y, z).ToString();
+
+        }
     }
 }
