@@ -5,21 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfAppVar6"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="605.23">
-    <Grid Margin="0,0,2,0">
+        Title="MainWindow" Height="450" Width="605.23" WindowStartupLocation="CenterScreen">
+    <Grid Background="Bisque" Margin="0,0,2,0">
         <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Нахождение большего их четырех чисел" VerticalAlignment="Top" Height="41" Width="577" FontSize="30"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,93,0,0" TextWrapping="Wrap" Text="Первое число:" VerticalAlignment="Top" Height="33" Width="195" FontSize="23"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,153,0,0" TextWrapping="Wrap" Text="Второе число:" VerticalAlignment="Top" Height="33" Width="195" FontSize="23"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,213,0,0" TextWrapping="Wrap" Text="Третье число:" VerticalAlignment="Top" Height="33" Width="195" FontSize="23"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,273,0,0" TextWrapping="Wrap" Text="Четвертое число:" VerticalAlignment="Top" Height="33" Width="195" FontSize="23"/>
-        <TextBox x:Name="Number1" HorizontalAlignment="Left" Height="33" Margin="205,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" FontSize="23"/>
-        <TextBox x:Name="Number2" HorizontalAlignment="Left" Height="33" Margin="205,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" FontSize="23"/>
-        <TextBox x:Name="Number3" HorizontalAlignment="Left" Height="33" Margin="205,213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" FontSize="23"/>
-        <TextBox x:Name="Number4" HorizontalAlignment="Left" Height="33" Margin="205,273,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" FontSize="23"/>
+        <TextBox x:Name="Number1" Background="LightYellow" HorizontalAlignment="Left" Height="33" Margin="205,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" FontSize="23"/>
+        <TextBox x:Name="Number2" Background="LightYellow" HorizontalAlignment="Left" Height="33" Margin="205,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" FontSize="23"/>
+        <TextBox x:Name="Number3" Background="LightYellow" HorizontalAlignment="Left" Height="33" Margin="205,213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" FontSize="23"/>
+        <TextBox x:Name="Number4" Background="LightYellow" HorizontalAlignment="Left" Height="33" Margin="205,273,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" FontSize="23"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,372,0,0" TextWrapping="Wrap" Text="Наибольшее из данных чисел -" VerticalAlignment="Top" Height="26" Width="293" FontSize="20"/>
-        <Button Content="Выход" HorizontalAlignment="Left" Margin="500,93,0,0" VerticalAlignment="Top" Width="85" Height="33" FontSize="20" Click="Button_Click"/>
+        <Button Content="Выход" Background="Orange" HorizontalAlignment="Left" Margin="500,93,0,0" VerticalAlignment="Top" Width="85" Height="33" FontSize="20" Click="Button_Click"/>
         <TextBlock x:Name="NumberMax" HorizontalAlignment="Left" Margin="308,372,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Width="63" FontSize="20"/>
-        <Button Content="Найти" HorizontalAlignment="Left" Margin="500,365,0,0" VerticalAlignment="Top" Width="85" Height="33" FontSize="20" Click="Button_Reschenie"/>
+        <Button Content="Найти" Background="Orange" HorizontalAlignment="Left" Margin="500,365,0,0" VerticalAlignment="Top" Width="85" Height="33" FontSize="20" Click="Button_Reschenie"/>
 
     </Grid>
 </Window>
